@@ -1,0 +1,82 @@
+:root {
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --line-height: 1.7rem;
+    --transition: 0.4s ease-in;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+  }
+
+  a { 
+    color: inherit;
+    text-decoration: none;
+   } 
+  ul li {
+    list-style-type: none;
+  }
+  
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Roboto", sans-serf;
+    background-color: antiquewhite;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 1.5rem;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: azure;
+    background-color: #447551;
+  }
+
+  #contact {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+  }
+
+  #navLinks {
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 30px;
+  }
+
+  .navItems {
+    padding: 1.5rem;
+  }
+
+  .navItems:hover{
+    color: #0dffc6;
+  }
+
+  .workersWorking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .workersWorking img {
+    width: 100%;
+  }
+
+  .contInfo{
+    padding-right: 1.25rem;
+  }
