@@ -45,8 +45,22 @@ html {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #1a1a1c;
     background-image: url("../assets/woodHeader2.jpg"); /*TODO - GET BETTER IMAGE, NEED SIDEWAYS AND LIGHTER COLOR FOR CONTRAST*/
+
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 2px 9px 8px 0px #01080F;
   }
 
+  h1{
+    padding-top: 1.25rem;
+  }
+
+  #motto {
+    color: var(--secondary-color);
+    font-family: "Brush Script MT", cursive;
+    font-size: 3rem;
+
+    text-shadow: 4px 2px 4px rgba(12, 1, 54, 1);
+  }
   #contact {
     display: flex;
     justify-content: flex-end;
@@ -69,9 +83,7 @@ html {
   }
 
   .workersWorking{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
   }
 
   .workersWorking img {
@@ -82,10 +94,22 @@ html {
     padding-right: 1.25rem;
   }
 
-  .about {
-    padding: 2rem;
+  .bodyContent {
+  padding-right: 10rem;
+  padding-left: 10rem;
   }
 
-  .bodyContent {
- 
+  .about {
+    padding-top: 2rem;
   }
+
+  .overlay{
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    inset: 0;
+  }
+  
