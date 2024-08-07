@@ -4,6 +4,7 @@
     --bolder-font: 900;
     --line-height: 1.7rem;
     --transition: 0.4s ease-in;
+    --secondary-color: #e8bf1a;
   }
 
 * {
@@ -27,7 +28,7 @@ html {
   }
 
   body {
-    font-family: "Roboto", sans-serf;
+    font-family: "Arial", sans-serf;
     background-color: antiquewhite;
   }
 
@@ -35,15 +36,15 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 1rem 1.5rem;
+    /*padding: 1rem 1.5rem;*/
 
     position: sticky;
     top: 0;
     left: 0;
     z-index: 1;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: azure;
-    background-color: #447551;
+    color: #1a1a1c;
+    background-image: url("../assets/woodHeader2.jpg"); /*TODO - GET BETTER IMAGE, NEED SIDEWAYS AND LIGHTER COLOR FOR CONTRAST*/
   }
 
   #contact {
@@ -64,7 +65,7 @@ html {
   }
 
   .navItems:hover{
-    color: #0dffc6;
+    color: var(--secondary-color);
   }
 
   .workersWorking{
@@ -79,4 +80,12 @@ html {
 
   .contInfo{
     padding-right: 1.25rem;
+  }
+
+  .about {
+    padding: 2rem;
+  }
+
+  .bodyContent {
+ 
   }
