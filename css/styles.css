@@ -43,11 +43,13 @@ html {
     left: 0;
     z-index: 1;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #1a1a1c;
+    color: #4f2f1c;
     background-image: url("../assets/woodHeader2.jpg"); /*TODO - GET BETTER IMAGE, NEED SIDEWAYS AND LIGHTER COLOR FOR CONTRAST*/
 
     border-radius: 0px 0px 15px 15px;
     box-shadow: 2px 9px 8px 0px #01080F;
+
+    text-shadow: 3px 0px 2px rgba(14, 5, 2, 1);
   }
 
   h1{
@@ -57,7 +59,7 @@ html {
   #motto {
     color: var(--secondary-color);
     font-family: "Brush Script MT", cursive;
-    font-size: 3rem;
+    font-size: 5vw;
 
     text-shadow: 4px 2px 4px rgba(12, 1, 54, 1);
   }
@@ -71,11 +73,11 @@ html {
     display: flex;
     justify-content: space-around;
 
-    font-size: 30px;
+    font-size: 2vw;
   }
 
   .navItems {
-    padding: 1.5rem;
+    padding: 1.15rem;
   }
 
   .navItems:hover{
