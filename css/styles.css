@@ -57,11 +57,16 @@ html {
   }
 
   #motto {
-    color: var(--secondary-color);
+    background-image: linear-gradient(var(--secondary-color), #d9ff94);
+    color: transparent;
+    background-clip: text;
+
+    filter: drop-shadow(2px 2px #333);
+    
     font-family: "Brush Script MT", cursive;
     font-size: 5vw;
 
-    text-shadow: 4px 2px 4px rgba(12, 1, 54, 1);
+    /*text-shadow: 4px 2px 4px rgba(12, 1, 54, 1);*/
   }
   #contact {
     display: flex;
